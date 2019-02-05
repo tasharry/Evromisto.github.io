@@ -1,0 +1,128 @@
+html {
+  overflow: hidden; }
+
+body, ul, menu, h2, pre, p {
+  margin: 0;
+  padding: 0; }
+
+.wrapper {
+  width: 100%;
+  height: 100vh; }
+
+.bg {
+  position: absolute;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  z-index: -1; }
+
+.bg-house {
+  position: absolute;
+  background-size: cover;
+  max-width: 100%;
+  bottom: 0;
+  right: 0;
+  z-index: -1; }
+
+header {
+  padding: 48px 60px 0 60px;
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr 1fr; }
+
+.header-address, .header-lang, span, ul, li, button, h2, p {
+  color: #ffffff;
+  font-family: "Segoe UI"; }
+
+ul, button, .header-lang {
+  letter-spacing: 1.7px; }
+
+.header-address {
+  font-size: 1em; }
+
+.header-lang {
+  font-size: 0.8em;
+  justify-self: flex-end;
+  padding-right: 2em;
+  font-weight: bold; }
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr 1fr;
+  padding: 45px 60px 0 60px; }
+  main p {
+    font-size: 18px;
+    padding-top: 10px; }
+
+h2 {
+  font-size: 4em;
+  white-space: pre-line;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1; }
+
+button {
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none; }
+
+.header-btn_call, .main-btn_watch {
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25px;
+  padding: 0.5em 1em; }
+
+.header-btn_call {
+  margin-top: -14px;
+  border: solid 1px #ffffff;
+  color: #ffffff; }
+
+.main-btn_watch {
+  background: #ec6400;
+  border: none;
+  padding: 0 2em;
+  margin-top: 45px; }
+
+.header-btn_call:hover, .header-btn_call:active, .main-btn_watch:hover {
+  border: hidden;
+  text-decoration: none; }
+
+.header-btn_call:hover {
+  background: #EA641E; }
+
+.main-btn_watch:hover {
+  background: #58BAE7; }
+
+ul {
+  cursor: pointer; }
+
+ul, li {
+  text-decoration: none;
+  list-style: none;
+  font-weight: 600; }
+
+li:first-child {
+  padding-top: 0.8em; }
+
+li {
+  padding-top: 1.2em;
+  font-size: 1em;
+  text-transform: uppercase; }
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr 1fr;
+  position: fixed;
+  width: 100%;
+  bottom: 2em; }
+  footer p {
+    writing-mode: tb-rl;
+    margin-left: 3em;
+    transform: rotate(180deg);
+    font-size: 1em; }
+  footer .footer-logo {
+    align-self: end;
+    margin-left: -6em; }
